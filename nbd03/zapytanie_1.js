@@ -1,0 +1,1 @@
+printjson(db.getCollection("people").findOne({"first_name":"Wayne"}))
