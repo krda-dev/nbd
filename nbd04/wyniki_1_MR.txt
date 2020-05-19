@@ -1,0 +1,2 @@
+{ "_id" : { "sex" : "Female" }, "value" : { "avgHeights" : 167.09532818540245, "avgWeights" : 70.09659989961523 } }
+{ "_id" : { "sex" : "Male" }, "value" : { "avgHeights" : 167.33280029683056, "avgWeights" : 69.49221216845481 } }

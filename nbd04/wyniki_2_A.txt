@@ -1,0 +1,21 @@
+{ "_id" : "ALL", "sum" : 655866.63, "count" : 128 }
+{ "_id" : "WST", "sum" : 30739.64, "count" : 6 }
+{ "_id" : "MOP", "sum" : 5337.77, "count" : 1 }
+{ "_id" : "PAB", "sum" : 363643.61, "count" : 71 }
+{ "_id" : "EUR", "sum" : 16913519.13, "count" : 3368 }
+{ "_id" : "MUR", "sum" : 182130.48, "count" : 37 }
+{ "_id" : "FJD", "sum" : 9321.43, "count" : 2 }
+{ "_id" : "SCR", "sum" : 14797.58, "count" : 3 }
+{ "_id" : "LSL", "sum" : 26269.07, "count" : 6 }
+{ "_id" : "LTL", "sum" : 230882.59, "count" : 44 }
+{ "_id" : "ZWL", "sum" : 147943.58, "count" : 30 }
+{ "_id" : "MAD", "sum" : 516264.06, "count" : 103 }
+{ "_id" : "NPR", "sum" : 146606.65, "count" : 29 }
+{ "_id" : "GTQ", "sum" : 597758.09, "count" : 117 }
+{ "_id" : "GYD", "sum" : 13053.5, "count" : 3 }
+{ "_id" : "RON", "sum" : 11557.6, "count" : 2 }
+{ "_id" : "LYD", "sum" : 197545.65, "count" : 39 }
+{ "_id" : "TWD", "sum" : 37654, "count" : 7 }
+{ "_id" : "BAM", "sum" : 415965.47, "count" : 80 }
+{ "_id" : "DKK", "sum" : 225770.32, "count" : 47 }
+Type "it" for more

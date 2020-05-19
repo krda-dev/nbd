@@ -1,0 +1,21 @@
+{ "_id" : "Account Coordinator", "value" : { "iloscPracownikow" : 92 } }
+{ "_id" : "Account Executive", "value" : { "iloscPracownikow" : 74 } }
+{ "_id" : "Account Representative I", "value" : { "iloscPracownikow" : 28 } }
+{ "_id" : "Account Representative II", "value" : { "iloscPracownikow" : 20 } }
+{ "_id" : "Account Representative III", "value" : { "iloscPracownikow" : 24 } }
+{ "_id" : "Account Representative IV", "value" : { "iloscPracownikow" : 28 } }
+{ "_id" : "Accountant I", "value" : { "iloscPracownikow" : 19 } }
+{ "_id" : "Accountant II", "value" : { "iloscPracownikow" : 22 } }
+{ "_id" : "Accountant III", "value" : { "iloscPracownikow" : 19 } }
+{ "_id" : "Accountant IV", "value" : { "iloscPracownikow" : 25 } }
+{ "_id" : "Accounting Assistant I", "value" : { "iloscPracownikow" : 26 } }
+{ "_id" : "Accounting Assistant II", "value" : { "iloscPracownikow" : 25 } }
+{ "_id" : "Accounting Assistant III", "value" : { "iloscPracownikow" : 15 } }
+{ "_id" : "Accounting Assistant IV", "value" : { "iloscPracownikow" : 25 } }
+{ "_id" : "Actuary", "value" : { "iloscPracownikow" : 89 } }
+{ "_id" : "Administrative Assistant I", "value" : { "iloscPracownikow" : 14 } }
+{ "_id" : "Administrative Assistant II", "value" : { "iloscPracownikow" : 25 } }
+{ "_id" : "Administrative Assistant III", "value" : { "iloscPracownikow" : 22 } }
+{ "_id" : "Administrative Assistant IV", "value" : { "iloscPracownikow" : 21 } }
+{ "_id" : "Administrative Officer", "value" : { "iloscPracownikow" : 91 } }
+Type "it" for more
