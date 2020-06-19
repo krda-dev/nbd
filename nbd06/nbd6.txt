@@ -1,0 +1,51 @@
+1. 
+MATCH path=allshortestPaths((t:town {name:'Darjeeling'})-[*0..10]-(p:peak {name:'Sandakphu'})) RETURN path
+2. 
+MATCH path=allshortestPaths((t:town {name:'Darjeeling'})-[*]-(p:peak {name:'Sandakphu'})) WHERE ALL (p IN relationships(path) WHERE p.winter = "true") RETURN path
+3.1. 
+match (start:town {name:"Darjeeling"}), (end:peak {name:'Sandakphu'}) match p=(start)-[r*2..5]->(end) with p, relationships(p) as rcoll 
+return p, reduce(totalDistance=0, x in rcoll | totalDistance + x.distance) as totalDistance order by totalDistance ASC
+3.2. 
+match (start:town {name:"Rimbik"}), (end) //zrobilem z Rimbika bo z Darjeeling nigdzie sie rowerem nie dojedzie
+match p=(start)-[r:twowheeler*2..5]->(end) return p
+4. 
+match (a:Airport)<-[o:ORIGIN]-(f:Flight) return a, count(o) as Occurances order by Occurances DESC
+5.1
+//pomocnicza relacja
+MATCH (start:Airport)<-[:ORIGIN]-(f:Flight)-[:DESTINATION]->(end:Airport), (f)<-[:ASSIGN]-(t:Ticket)
+MERGE (start)-[r:LOT{cena:t.price}]->(end)
+RETURN start,r,end
+//
+5.2
+MATCH p=(start:Airport {name:"LAX"})-[r*0..2]->(end:Airport)
+where end.name <> "LAX"
+with p, reduce(totalPrice = 0, bilet in r | totalPrice + bilet.cena) as redukcja
+where redukcja < 3000
+return p, redukcja
+6.
+//zrobilem do SEATTLE, bo do Dayton nie ma zadnych polaczen z Los Angeles
+MATCH p=(lax:Airport {name:"LAX"})-[r:LOT*0..3]->(sea:Airport {name:"SEA"})
+with p, reduce(totalPrice = 0, bilet in r | totalPrice + bilet.cena) as redukcja
+return p, redukcja order by redukcja
+7.
+//
+MATCH p=(lax:Airport {name:"LAX"})-[r:LOT*0..3]->(sea:Airport {name:"SEA"})
+with p, reduce(totalPrice = 0, bilet in r | totalPrice + bilet.cena) as redukcja
+return p, redukcja order by redukcja LIMIT 1
+8.1.
+//pomocnicza relacja
+MATCH (start:Airport)<-[:ORIGIN]-(f:Flight)-[:DESTINATION]->(end:Airport), (f)<-[:ASSIGN]-(t:Ticket {class:"business"})
+MERGE (start)-[r:LOTBiznes {cena:t.price}]->(end)
+RETURN start,r,end
+8.2.
+MATCH p=(lax:Airport {name:"LAX"})-[r:LOTBiznes*0..3]->(sea:Airport {name:"SEA"})
+with p, reduce(totalPrice = 0, bilet in r | totalPrice + bilet.cena) as redukcja
+return p, redukcja order by redukcja LIMIT 1
+9.
+MATCH p=(start:Airport)<-[:ORIGIN]-(f:Flight)-[:DESTINATION]->(end:Airport)
+return start, count(distinct end)
+10.
+MATCH p=(start:Airport)-[r:LOT*2]->(end:Airport)
+WHERE (start)<>(end)
+with p, reduce(totalPrice = 0, bilet in r | totalPrice + bilet.cena) as redukcja
+return p, redukcja order by redukcja LIMIT 1

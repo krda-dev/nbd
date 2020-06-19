@@ -1,0 +1,579 @@
+﻿[
+  {
+    "p": {
+      "start": {
+        "identity": 184,
+        "labels": [
+          "town"
+        ],
+        "properties": {
+          "name": "Rimbik"
+        }
+      },
+      "end": {
+        "identity": 189,
+        "labels": [
+          "village"
+        ],
+        "properties": {
+          "name": "Gurdum"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 184,
+            "labels": [
+              "town"
+            ],
+            "properties": {
+              "name": "Rimbik"
+            }
+          },
+          "relationship": {
+            "identity": 265,
+            "start": 184,
+            "end": 188,
+            "type": "twowheeler",
+            "properties": {
+              "name": "Rimbik-Sirikhola",
+              "winter": "true",
+              "distance": 4,
+              "summer": "true"
+            }
+          },
+          "end": {
+            "identity": 188,
+            "labels": [
+              "village"
+            ],
+            "properties": {
+              "name": "Sirikhola"
+            }
+          }
+        },
+        {
+          "start": {
+            "identity": 188,
+            "labels": [
+              "village"
+            ],
+            "properties": {
+              "name": "Sirikhola"
+            }
+          },
+          "relationship": {
+            "identity": 267,
+            "start": 188,
+            "end": 189,
+            "type": "twowheeler",
+            "properties": {
+              "name": "Sirikhola-Gurdum",
+              "winter": "true",
+              "distance": 6,
+              "summer": "true"
+            }
+          },
+          "end": {
+            "identity": 189,
+            "labels": [
+              "village"
+            ],
+            "properties": {
+              "name": "Gurdum"
+            }
+          }
+        }
+      ],
+      "length": 2
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 184,
+        "labels": [
+          "town"
+        ],
+        "properties": {
+          "name": "Rimbik"
+        }
+      },
+      "end": {
+        "identity": 187,
+        "labels": [
+          "peak"
+        ],
+        "properties": {
+          "name": "Sandakphu",
+          "altitude": "12400 ft"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 184,
+            "labels": [
+              "town"
+            ],
+            "properties": {
+              "name": "Rimbik"
+            }
+          },
+          "relationship": {
+            "identity": 265,
+            "start": 184,
+            "end": 188,
+            "type": "twowheeler",
+            "properties": {
+              "name": "Rimbik-Sirikhola",
+              "winter": "true",
+              "distance": 4,
+              "summer": "true"
+            }
+          },
+          "end": {
+            "identity": 188,
+            "labels": [
+              "village"
+            ],
+            "properties": {
+              "name": "Sirikhola"
+            }
+          }
+        },
+        {
+          "start": {
+            "identity": 188,
+            "labels": [
+              "village"
+            ],
+            "properties": {
+              "name": "Sirikhola"
+            }
+          },
+          "relationship": {
+            "identity": 267,
+            "start": 188,
+            "end": 189,
+            "type": "twowheeler",
+            "properties": {
+              "name": "Sirikhola-Gurdum",
+              "winter": "true",
+              "distance": 6,
+              "summer": "true"
+            }
+          },
+          "end": {
+            "identity": 189,
+            "labels": [
+              "village"
+            ],
+            "properties": {
+              "name": "Gurdum"
+            }
+          }
+        },
+        {
+          "start": {
+            "identity": 189,
+            "labels": [
+              "village"
+            ],
+            "properties": {
+              "name": "Gurdum"
+            }
+          },
+          "relationship": {
+            "identity": 269,
+            "start": 189,
+            "end": 187,
+            "type": "twowheeler",
+            "properties": {
+              "name": "Gurdum-Sandakphu",
+              "winter": "true",
+              "distance": 12,
+              "summer": "true"
+            }
+          },
+          "end": {
+            "identity": 187,
+            "labels": [
+              "peak"
+            ],
+            "properties": {
+              "name": "Sandakphu",
+              "altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+      "length": 3
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 184,
+        "labels": [
+          "town"
+        ],
+        "properties": {
+          "name": "Rimbik"
+        }
+      },
+      "end": {
+        "identity": 192,
+        "labels": [
+          "village"
+        ],
+        "properties": {
+          "name": "Rammam"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 184,
+            "labels": [
+              "town"
+            ],
+            "properties": {
+              "name": "Rimbik"
+            }
+          },
+          "relationship": {
+            "identity": 265,
+            "start": 184,
+            "end": 188,
+            "type": "twowheeler",
+            "properties": {
+              "name": "Rimbik-Sirikhola",
+              "winter": "true",
+              "distance": 4,
+              "summer": "true"
+            }
+          },
+          "end": {
+            "identity": 188,
+            "labels": [
+              "village"
+            ],
+            "properties": {
+              "name": "Sirikhola"
+            }
+          }
+        },
+        {
+          "start": {
+            "identity": 188,
+            "labels": [
+              "village"
+            ],
+            "properties": {
+              "name": "Sirikhola"
+            }
+          },
+          "relationship": {
+            "identity": 280,
+            "start": 188,
+            "end": 192,
+            "type": "twowheeler",
+            "properties": {
+              "name": "Sirikhola-Rammam",
+              "winter": "true",
+              "distance": 7,
+              "summer": "true"
+            }
+          },
+          "end": {
+            "identity": 192,
+            "labels": [
+              "village"
+            ],
+            "properties": {
+              "name": "Rammam"
+            }
+          }
+        }
+      ],
+      "length": 2
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 184,
+        "labels": [
+          "town"
+        ],
+        "properties": {
+          "name": "Rimbik"
+        }
+      },
+      "end": {
+        "identity": 189,
+        "labels": [
+          "village"
+        ],
+        "properties": {
+          "name": "Gurdum"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 184,
+            "labels": [
+              "town"
+            ],
+            "properties": {
+              "name": "Rimbik"
+            }
+          },
+          "relationship": {
+            "identity": 265,
+            "start": 184,
+            "end": 188,
+            "type": "twowheeler",
+            "properties": {
+              "name": "Rimbik-Sirikhola",
+              "winter": "true",
+              "distance": 4,
+              "summer": "true"
+            }
+          },
+          "end": {
+            "identity": 188,
+            "labels": [
+              "village"
+            ],
+            "properties": {
+              "name": "Sirikhola"
+            }
+          }
+        },
+        {
+          "start": {
+            "identity": 188,
+            "labels": [
+              "village"
+            ],
+            "properties": {
+              "name": "Sirikhola"
+            }
+          },
+          "relationship": {
+            "identity": 280,
+            "start": 188,
+            "end": 192,
+            "type": "twowheeler",
+            "properties": {
+              "name": "Sirikhola-Rammam",
+              "winter": "true",
+              "distance": 7,
+              "summer": "true"
+            }
+          },
+          "end": {
+            "identity": 192,
+            "labels": [
+              "village"
+            ],
+            "properties": {
+              "name": "Rammam"
+            }
+          }
+        },
+        {
+          "start": {
+            "identity": 192,
+            "labels": [
+              "village"
+            ],
+            "properties": {
+              "name": "Rammam"
+            }
+          },
+          "relationship": {
+            "identity": 283,
+            "start": 192,
+            "end": 189,
+            "type": "twowheeler",
+            "properties": {
+              "name": "Rammam-Gurdum",
+              "winter": "true",
+              "distance": 10,
+              "summer": "false"
+            }
+          },
+          "end": {
+            "identity": 189,
+            "labels": [
+              "village"
+            ],
+            "properties": {
+              "name": "Gurdum"
+            }
+          }
+        }
+      ],
+      "length": 3
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 184,
+        "labels": [
+          "town"
+        ],
+        "properties": {
+          "name": "Rimbik"
+        }
+      },
+      "end": {
+        "identity": 187,
+        "labels": [
+          "peak"
+        ],
+        "properties": {
+          "name": "Sandakphu",
+          "altitude": "12400 ft"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 184,
+            "labels": [
+              "town"
+            ],
+            "properties": {
+              "name": "Rimbik"
+            }
+          },
+          "relationship": {
+            "identity": 265,
+            "start": 184,
+            "end": 188,
+            "type": "twowheeler",
+            "properties": {
+              "name": "Rimbik-Sirikhola",
+              "winter": "true",
+              "distance": 4,
+              "summer": "true"
+            }
+          },
+          "end": {
+            "identity": 188,
+            "labels": [
+              "village"
+            ],
+            "properties": {
+              "name": "Sirikhola"
+            }
+          }
+        },
+        {
+          "start": {
+            "identity": 188,
+            "labels": [
+              "village"
+            ],
+            "properties": {
+              "name": "Sirikhola"
+            }
+          },
+          "relationship": {
+            "identity": 280,
+            "start": 188,
+            "end": 192,
+            "type": "twowheeler",
+            "properties": {
+              "name": "Sirikhola-Rammam",
+              "winter": "true",
+              "distance": 7,
+              "summer": "true"
+            }
+          },
+          "end": {
+            "identity": 192,
+            "labels": [
+              "village"
+            ],
+            "properties": {
+              "name": "Rammam"
+            }
+          }
+        },
+        {
+          "start": {
+            "identity": 192,
+            "labels": [
+              "village"
+            ],
+            "properties": {
+              "name": "Rammam"
+            }
+          },
+          "relationship": {
+            "identity": 283,
+            "start": 192,
+            "end": 189,
+            "type": "twowheeler",
+            "properties": {
+              "name": "Rammam-Gurdum",
+              "winter": "true",
+              "distance": 10,
+              "summer": "false"
+            }
+          },
+          "end": {
+            "identity": 189,
+            "labels": [
+              "village"
+            ],
+            "properties": {
+              "name": "Gurdum"
+            }
+          }
+        },
+        {
+          "start": {
+            "identity": 189,
+            "labels": [
+              "village"
+            ],
+            "properties": {
+              "name": "Gurdum"
+            }
+          },
+          "relationship": {
+            "identity": 269,
+            "start": 189,
+            "end": 187,
+            "type": "twowheeler",
+            "properties": {
+              "name": "Gurdum-Sandakphu",
+              "winter": "true",
+              "distance": 12,
+              "summer": "true"
+            }
+          },
+          "end": {
+            "identity": 187,
+            "labels": [
+              "peak"
+            ],
+            "properties": {
+              "name": "Sandakphu",
+              "altitude": "12400 ft"
+            }
+          }
+        }
+      ],
+      "length": 4
+    }
+  }
+]

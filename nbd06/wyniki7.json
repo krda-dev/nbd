@@ -1,0 +1,115 @@
+﻿[
+  {
+    "p": {
+      "start": {
+        "identity": 5,
+        "labels": [
+          "Airport"
+        ],
+        "properties": {
+          "name": "LAX"
+        }
+      },
+      "end": {
+        "identity": 0,
+        "labels": [
+          "Airport"
+        ],
+        "properties": {
+          "name": "SEA"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 5,
+            "labels": [
+              "Airport"
+            ],
+            "properties": {
+              "name": "LAX"
+            }
+          },
+          "relationship": {
+            "identity": 1994,
+            "start": 5,
+            "end": 25,
+            "type": "LOT",
+            "properties": {
+              "cena": 186.75
+            }
+          },
+          "end": {
+            "identity": 25,
+            "labels": [
+              "Airport"
+            ],
+            "properties": {
+              "name": "LAS"
+            }
+          }
+        },
+        {
+          "start": {
+            "identity": 25,
+            "labels": [
+              "Airport"
+            ],
+            "properties": {
+              "name": "LAS"
+            }
+          },
+          "relationship": {
+            "identity": 1954,
+            "start": 25,
+            "end": 17,
+            "type": "LOT",
+            "properties": {
+              "cena": 490.5
+            }
+          },
+          "end": {
+            "identity": 17,
+            "labels": [
+              "Airport"
+            ],
+            "properties": {
+              "name": "DEN"
+            }
+          }
+        },
+        {
+          "start": {
+            "identity": 17,
+            "labels": [
+              "Airport"
+            ],
+            "properties": {
+              "name": "DEN"
+            }
+          },
+          "relationship": {
+            "identity": 1520,
+            "start": 17,
+            "end": 0,
+            "type": "LOT",
+            "properties": {
+              "cena": 801
+            }
+          },
+          "end": {
+            "identity": 0,
+            "labels": [
+              "Airport"
+            ],
+            "properties": {
+              "name": "SEA"
+            }
+          }
+        }
+      ],
+      "length": 3
+    },
+    "redukcja": 1478.25
+  }
+]
