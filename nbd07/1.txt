@@ -1,0 +1,56 @@
+//1
+curl -i -X PUT \
+  http://127.0.0.1:8098/buckets/s21429/keys/GTA \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -d '{
+    "type": "action",
+    "release": "2010-01-01",
+    "studio": "RockstarGame",
+    "price": 199.99
+  }'
+
+//2
+curl -i -X PUT \
+  http://127.0.0.1:8098/buckets/s21429/keys/FIFA \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -d '{
+    "type": "sport",
+    "release": "2020-01-01",
+    "studio": "EASport",
+    "price": 129.99
+  }'
+//3
+curl -i -X PUT \
+  http://127.0.0.1:8098/buckets/s21429/keys/Mario \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -d '{
+    "type": "adventure",
+    "release": "1992-01-01",
+    "studio": "PJATK",
+    "price": 9.99
+  }'
+//4
+curl -i -X PUT \
+  http://127.0.0.1:8098/buckets/s21429/keys/PES \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -d '{
+    "type": "sport",
+    "release": "2020-01-01",
+    "studio": "KONAMI",
+    "price": 129.99
+  }'
+//5
+curl -i -X PUT \
+  http://127.0.0.1:8098/buckets/s21429/keys/Wiedzmin \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -d '{
+    "type": "RPG",
+    "release": "2016-01-01",
+    "studio": "CDPROJECT",
+    "price": 229.99
+  }'

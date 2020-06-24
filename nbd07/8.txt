@@ -1,0 +1,7 @@
+curl -i -X POST \
+  http://127.0.0.1:8098/buckets/s21429/keys \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -d '{
+    "type": "sth strange will happen"
+}'

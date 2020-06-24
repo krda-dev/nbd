@@ -1,0 +1,2 @@
+curl -i -X DELETE \
+  http://127.0.0.1:8098/buckets/s21429/keys/GXZQAEtdK2Wco9wgezUdgnRm9Nx

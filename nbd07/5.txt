@@ -1,0 +1,10 @@
+curl -i -X PUT \
+  http://127.0.0.1:8098/buckets/s21429/keys/Wiedzmin \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -d '{
+    "type": "RPG",
+    "release": 2016-01-01,
+    "studio": "CdProjekt",
+    "price": 229123.00
+  }'

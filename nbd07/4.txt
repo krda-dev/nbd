@@ -1,0 +1,9 @@
+curl -i -X PUT \
+  http://127.0.0.1:8098/buckets/s21429/keys/PES\
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -d '{
+    "type": "sport",
+    "release": 2020-01-01,
+    "studio": "KONAMI",
+  }'

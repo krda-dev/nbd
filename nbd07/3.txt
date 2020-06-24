@@ -1,0 +1,11 @@
+curl -i -X PUT \
+  http://127.0.0.1:8098/buckets/s21429/keys/Mario \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -d '{
+    "type": "adventures",
+    "release": 1992-01-01,
+    "studio": "PJATK",
+    "price": 6.99
+	"promotion": 3.00
+  }'

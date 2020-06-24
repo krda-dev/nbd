@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/frLP414DEUpkzGNluPEg/QZfFgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s21429>; rel="up"
+Last-Modified: Wed, 24 Jun 2020 14:36:08 GMT
+ETag: "5iocphzrbOn5HbP40RS7T0"
+Date: Wed, 24 Jun 2020 14:37:56 GMT
+Content-Type: application/json
+Content-Length: 41
+
+{
+    "type": "sth strange will happen"
+}
